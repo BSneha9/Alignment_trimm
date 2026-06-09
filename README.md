@@ -49,16 +49,16 @@ thresh - Set between 0-1!
 ### Example
 ```bash
 qsub TRIMM.sh -i /path/to/alignments \     ## path to folder containing input fasta files
-              -o /path/to/output \         ## Will make the output dir if not exisitng         
+              -o /path/to/output \         ## path to Output folder, will create it if not found         
               -t /path/to/trimmer.py \     ## path to timmer.py
               -n _TRIMMED.fasta \          ## Suffix of the alignment files in the input directory
-              -g 0.70                      ##  default will be set to 0.7 if not provided
+              -g 0.70                      ## default will be set to 0.7 if not provided
 ```
 
 #### Or...
 ```bash
 bash TRIMM.sh -i /path/to/alignments \     ## path to folder containing input fasta files
-              -o /path/to/output \         ## Will make the output dir if not exisitng         
+              -o /path/to/output \         ## path to Output folder, will create it if not found         
               -t /path/to/trimmer.py \     ## path to timmer.py
               -n _TRIMMED.fasta \          ## Suffix of the alignment files in the input directory
               -g 0.70                      ## default will be set to 0.7 if not provided
