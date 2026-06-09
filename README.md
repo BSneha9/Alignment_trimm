@@ -14,7 +14,7 @@ but also whne you would like to retain small fragmented sequences for poor sampl
 
 
 ## Original code taken from 
-    - https://www.biostars.org/p/434389/
+    https://www.biostars.org/p/434389/
 
 ## Environemnt
 create a conda environemnt and install Biopython
