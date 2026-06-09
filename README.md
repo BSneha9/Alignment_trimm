@@ -3,7 +3,7 @@
 # Alignemnt_Trimm - 
 ## Remove sequences with gaps from MSA
 
-"""
+
 This script filters sequences from a FASTA file based on the percentage of gaps or ambiguous bases (N, -, or ?). 
 
 It removes sequences with a gap percentage higher than a specified threshold unless the sequence name is in a pre-defined list of names to retain that is listed in the `trimmer.py` script (therefore the gap threhold set would not not apply for these samples listed).
@@ -11,7 +11,7 @@ It removes sequences with a gap percentage higher than a specified threshold unl
 This script can be useful for cleaning up sequence data before further analysis by removing sequences with excessive gaps or poor quality data.
 but also whne you would like to retain samll fragmented sequences for poor samples. 
 
-"""
+
 
 ## Original code taken from 
     - https://www.biostars.org/p/434389/
