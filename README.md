@@ -1,6 +1,6 @@
 
 
-# Alignemnt_Trimm - 
+# Alignemnt_Trimm 
 ## Remove sequences with gaps from MSA
 
 
