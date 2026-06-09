@@ -25,7 +25,7 @@ pip install biopython
 ## File trimmer.py 
 ```python
 ## list the sample names (as written in the header on the fasta file) that you want to exclude from the thresholding 
-## edit the trimmer.py file to include these sample names
+## edit the trimmer.py file to list these sample names
 retain_names = ["Zygaena_araxis-shahkuhica_AH4","Zygaena_brizae-brizae_Lep0246"]
 
 ```
